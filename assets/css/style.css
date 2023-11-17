@@ -1,0 +1,7 @@
+/* viewL section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("images/london_view.jpg") no-repeat center center/cover;
+    position: relative;
+}
