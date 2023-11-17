@@ -1,7 +1,10 @@
 /* viewL section */
-#hero {
+#viewl {
     height: 600px;
     width: 100%;
     background: url("images/london_view.jpg") no-repeat center center/cover;
     position: relative;
 }
+
+/* Media query:  phones (576px and up) */
+@media screen and (min-width: 576px)
