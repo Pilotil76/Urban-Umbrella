@@ -61,12 +61,13 @@ nav {
     font-size: 2rem;
 }
 /* Viewl section */
+/*
 #viewl {
     height: 600px;
     width: 100%;
     background: url("assets/images/london_view.jpg") no-repeat center center/cover;
     position: relative;
-}
+} */
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
