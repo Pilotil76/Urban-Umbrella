@@ -1,7 +1,27 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;}
+    
 /* viewL section */
 #viewl {
     height: 600px;
@@ -120,7 +140,7 @@ main {
 @media screen and (min-width: 576px)
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) 
 
 /* Large devices: (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) 
