@@ -101,16 +101,6 @@ main {
     color: #ffffff;
 }
 
-/* Small devices:  phones (576px and up) */
-@media screen and (min-width: 576px)
-
-@media  screen and (min-width: 768px)
-
-/* Large devices: (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) 
-
-@media screen and (min-width: 1200px)
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -125,3 +115,15 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Small devices:  phones (576px and up) */
+@media screen and (min-width: 576px)
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px)
+
+/* Large devices: (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) 
+
+@media screen and (min-width: 1200px)
+
