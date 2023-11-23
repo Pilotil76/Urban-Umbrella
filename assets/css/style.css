@@ -22,13 +22,6 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;}
     
-/* viewL section */
-#viewl {
-    height: 500px;
-    width: 100%;
-    background: url("images/london_view.jpg") no-repeat center center/cover;
-    position: relative;
-}
 /* Header */
 header {
     background-color: #ffffff;
@@ -96,10 +89,11 @@ main {
     flex-direction: column;
 }
 
+
 /* Viewl section */
 
 #viewl {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url("../images/london_view.jpg") no-repeat center center/cover;
     position: relative;
@@ -124,8 +118,10 @@ main {
 /*@media screen and (min-width: 576px)*/
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) 
+/*@media screen and (min-width: 768px) */
     /* Header */
+/* Large devices: (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) 
 {
     nav {
         display: block;
@@ -189,16 +185,11 @@ main {
         color: #454b1b;
     }
  } 
-/* Large devices: (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
-   } 
 
 
 @media screen and (min-width: 1200px){
     #menu > li {
+        top: 60px;
         position: relative;
         padding-right: 1rem;
         font-size: small;
@@ -213,6 +204,23 @@ main {
         border-radius: 16px;
         font-family: Lato;
         font-weight: bold;
+      }
+    ul > a:link, a:visited {
+        background-color: none;
+        color: black;
+        border: 2px solid green;
+        border-radius: 50%;
+        width: 8rem;
+        padding: 5px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
       
-    }
+      ul > a:hover, a:active {
+
+        background-color: green;
+        color: white;
+      }
 }
