@@ -105,22 +105,6 @@ main {
     position: relative;
 } 
 
-#cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-}
-
-#cover-text > h2, #cover-text > h3 {
-    color: #ffffff;
-}
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -229,7 +213,6 @@ main {
         border-radius: 16px;
         font-family: Lato;
         font-weight: bold;
-        /*z-index: 0;*/
-        
+      
     }
 }
