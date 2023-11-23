@@ -24,7 +24,7 @@ h1, h2, h3 {
     
 /* viewL section */
 #viewl {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("images/london_view.jpg") no-repeat center center/cover;
     position: relative;
@@ -99,7 +99,7 @@ main {
 /* Viewl section */
 
 #viewl {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/london_view.jpg") no-repeat center center/cover;
     position: relative;
@@ -145,7 +145,7 @@ main {
 {
     nav {
         display: block;
-        position: relative;
+        position: absolute;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -158,7 +158,7 @@ main {
     #menu > li {
         padding-right: 1rem;
         font-size: small;
-        
+        border: 2px solid black;      
     }
 
     .nav-toggle-label {
@@ -183,25 +183,6 @@ main {
         right: 50px;
     }
 
-    /* Reasons section */
-    #benefits-physical,
-    #benefits-mental {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #benefits-physical > div,
-    #benefits-mental > div {
-        width: 75%;
-    }
-
-    #benefits-mental > div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
-
     /* Form */
     #signup {
         background-position: center;
@@ -223,18 +204,32 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
-}
+ } 
 /* Large devices: (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+   } 
 
-    /* Gallery */
-    #photos {
-        column-count: 4;
+
+@media screen and (min-width: 1200px){
+    #menu > li {
+        position: relative;
+        padding-right: 1rem;
+        font-size: small;
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 8rem;
+        padding: 5px 10px;
+        text-align: center ;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        border-radius: 16px;
+        font-family: Lato;
+        font-weight: bold;
+        /*z-index: 0;*/
+        
     }
-} 
-
-
-@media screen and (min-width: 1200px){}
+}
