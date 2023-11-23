@@ -156,7 +156,9 @@ main {
     }
 
     #menu > li {
-        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: small;
+        
     }
 
     .nav-toggle-label {
