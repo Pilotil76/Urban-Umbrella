@@ -20,19 +20,19 @@ h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;}
+    color: black;}
     
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: beige;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    /*box-shadow: 0 2px 2px #3a3a3a;*/
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+   
 }
 
 header a {
@@ -187,9 +187,8 @@ main {
  } 
 
 
-@media screen and (min-width: 1200px){
     #menu > li {
-        top: 60px;
+   
         position: relative;
         padding-right: 1rem;
         font-size: small;
@@ -205,22 +204,20 @@ main {
         font-family: Lato;
         font-weight: bold;
       }
-    ul > a:link, a:visited {
-        background-color: none;
-        color: black;
-        border: 2px solid green;
-        border-radius: 50%;
+    #menu > a:link, a:visited {
         width: 8rem;
-        padding: 5px 10px;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
+        background: pink;
+        color: black;
+       
+      
+       
+       
       }
       
-      ul > a:hover, a:active {
+    #menu > a:hover, a:active {
 
         background-color: green;
         color: white;
       }
-}
+
+/*@media screen and (min-width: 1200px) */
