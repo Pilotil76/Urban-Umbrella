@@ -135,11 +135,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
-        padding-right: 1rem;
-        font-size: small;
-        border: 2px solid black;      
-    }
+   
 
     .nav-toggle-label {
         display: none;
@@ -187,37 +183,38 @@ main {
  } 
 
 
-    #menu > li {
-   
+ 
+    #menu li a:link, a:visited {  
+        width: 8rem;
+        background: pink;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
         position: relative;
         padding-right: 1rem;
         font-size: small;
         border: 2px solid black;
-        border-radius: 50%;
-        width: 8rem;
         padding: 5px 10px;
         text-align: center ;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
+        margin: 2px 2px;
         border-radius: 16px;
         font-family: Lato;
         font-weight: bold;
       }
-    #menu > a:link, a:visited {
-        width: 8rem;
-        background: pink;
-        color: black;
-       
-      
-       
-       
-      }
       
     #menu > a:hover, a:active {
-
         background-color: green;
         color: white;
+        opacity: 0.7;
+        transition: 1.5c;
+        transform: scale(1.2);
       }
 
-/*@media screen and (min-width: 1200px) */
+@media screen and (min-width: 1200px)
+ {
+     #logo 
+     {
+    font-size: 400%;
+    line-height: 75px;
+    margin: 0 0.5rem;}
+}
