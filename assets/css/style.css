@@ -135,8 +135,6 @@ main {
         display: flex;
     }
 
-   
-
     .nav-toggle-label {
         display: none;
     }
@@ -186,7 +184,7 @@ main {
  
     #menu li a:link, a:visited {  
         width: 8rem;
-        background: pink;
+        background: red;
         color: black;
         text-decoration: none;
         display: inline-block;
@@ -206,7 +204,7 @@ main {
         background-color: green;
         color: white;
         opacity: 0.7;
-        transition: 1.5c;
+        transition: 2c;
         transform: scale(1.2);
       }
 
