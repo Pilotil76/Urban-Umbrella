@@ -20,7 +20,8 @@ h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;}
+    color: black;
+}
     
 /* Header */
 header {
@@ -99,9 +100,21 @@ main {
     position: relative;
 } 
 #viewnhs {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/nhs.png") no-repeat center center/cover;
+    position: relative;
+} 
+#viewbus   {
+    height: 200px;
+    width: 50%;
+    background: url("../images/bus.jpg") no-repeat center center/cover;
+    position: relative;
+} 
+#viewtube   {
+    height: 200px;
+    width: 50%;
+    background: url("../images/tube.jpg") no-repeat center center/cover;
     position: relative;
 } 
 div {
@@ -112,9 +125,7 @@ div > p > a {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: blue;
 } 
-
 /* Footer */
 #social-networks {
     text-align: center;
