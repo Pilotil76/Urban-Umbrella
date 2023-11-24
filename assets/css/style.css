@@ -98,6 +98,22 @@ main {
     background: url("../images/london_view.jpg") no-repeat center center/cover;
     position: relative;
 } 
+#viewnhs {
+    height: 600px;
+    width: 100%;
+    background: url("../images/nhs.png") no-repeat center center/cover;
+    position: relative;
+} 
+div {
+padding: 12px 12px 12px 12px;
+text-align: justify;
+}
+div > p > a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: blue;
+} 
 
 /* Footer */
 #social-networks {
@@ -182,9 +198,9 @@ main {
 
 
  
-    #menu li a:link, a:visited {  
+    #menu > li a:link,  a:visited {  
         width: 8rem;
-        height: 4rem;
+        height: 2rem;
         background: red;
         color: whitesmoke;
         text-decoration: none;
