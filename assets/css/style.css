@@ -224,7 +224,8 @@ div > p > a {
         transition: 2c;
         transform: scale(1.2);
       }
-
+     
+    
 @media screen and (min-width: 1200px)
  {
      #logo 
