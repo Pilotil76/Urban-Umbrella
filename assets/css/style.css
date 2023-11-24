@@ -185,7 +185,7 @@ main {
     #menu li a:link, a:visited {  
         width: 8rem;
         background: red;
-        color: black;
+        color: whitesmoke;
         text-decoration: none;
         display: inline-block;
         position: relative;
