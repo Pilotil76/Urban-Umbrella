@@ -108,12 +108,14 @@ main {
 #maps {
     display: flex;
     flex-wrap: wrap;
+    
 } 
 #maps div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
-    padding: 15px;
+    padding: 150px;
     text-align: center;
+    /*vertical-align: justify;*/
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
@@ -126,15 +128,13 @@ main {
     height: 200px;
     width: 50%;
     background: url("../images/bus.jpg") no-repeat center center/cover;
-    
-  left: 10px;
+    left: 10px;
   top: 150px;
 } 
 #viewtube   {
     height: 200px;
     width: 50%;
     background: url("../images/tube.jpg") no-repeat center center/cover;
-    
     right: 10px;
     top: 150px;
 } 
