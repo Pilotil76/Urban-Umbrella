@@ -19,9 +19,7 @@ body {
     font-weight: bold;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -308,7 +306,7 @@ div>p>a {
 #menu>li a:link,
 a:visited {
     width: 8rem;
-    height: 2rem;
+    height: 3rem;
     background: red;
     color: whitesmoke;
     text-decoration: none;
@@ -330,7 +328,7 @@ a:active {
     background-color: green;
     color: white;
     opacity: 0.7;
-    transition: 2c;
+    transition: 1c;
     transform: scale(1.2);
 }
 
