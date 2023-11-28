@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -72,6 +74,7 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    text-align: right;
 }
 
 #nav-toggle {
@@ -81,6 +84,17 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
 
 /* Main content */
 main {
@@ -104,29 +118,27 @@ main {
 }
 
 #viewnhs {
-    
-        height: 200px;
-        width: 50%;
-        background: url("../images/nhs.png") no-repeat center center/cover;
-        left: 10px;
-        top: 150px;
-        z-index: 1;
-       
+
+    height: 200px;
+    width: 50%;
+    background: url("../images/nhs.png") no-repeat center center/cover;
+    left: 10px;
+    top: 150px;
+    z-index: 1;
 }
-#viewstmarys  {
+
+#viewstmarys {
     height: 200px;
     width: 50%;
     background: url("../images/stmarys.jpg") no-repeat center center/cover;
     left: 10px;
     top: 150px;
     z-index: 1;
-} 
+}
 #maps {
     display: flex;
     flex-wrap: wrap;
-
 }
-
 #maps div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -171,29 +183,23 @@ div>p>a {
     letter-spacing: 2px;
 }
 
- /* Form */
- #contact {
+/* Form */
+#contact {
     background: url("../images/london_view.jpg") no-repeat center center/cover;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-
-
 #contact-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
-
-
 #contact-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
-
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -204,8 +210,6 @@ div>p>a {
     border-radius: 2px;
     padding: 0 5px;
 }
-   
-
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -214,6 +218,7 @@ div>p>a {
     background-color: #454b1b;
     color: #fafafa;
 }
+
 #contact {
     background-position: center;
     position: relative;
@@ -254,10 +259,14 @@ div>p>a {
 /*@media screen and (min-width: 576px)*/
 
 /* Media query: tablets and larger (768px and up) */
-/*@media screen and (min-width: 768px) */
+/* @media screen and (min-width: 768px) */
 /* Header */
+
+
 /* Large devices: (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) */
+
+@media screen and (min-width: 1200px) {
     nav {
         display: block;
         position: absolute;
@@ -324,10 +333,11 @@ a:active {
 }
 
 
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px)
+ {
     #logo {
         font-size: 400%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-}
+}*/
