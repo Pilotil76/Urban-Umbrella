@@ -18,9 +18,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -220,12 +218,12 @@ div>p>a {
     }
 
     /* Form */
-    #signup {
+    #contact-us {
         background-position: center;
         position: relative;
     }
 
-    #signup-form {
+    #contact-us-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
