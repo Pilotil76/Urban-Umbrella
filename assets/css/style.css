@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 h1,
@@ -25,6 +26,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
+    font-weight: bold;
 }
 
 /* Header */
