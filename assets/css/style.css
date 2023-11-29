@@ -116,6 +116,12 @@ main {
     background: url("../images/london_view.jpg") no-repeat center center/cover;
     position: relative;
 }
+#viewunderconstruction {
+    height: 600px;
+    width: 100%;
+    background: url("../images/under_construction.jpg") no-repeat center center/cover;
+    position: relative;
+}
 
 #viewnhs {
 
