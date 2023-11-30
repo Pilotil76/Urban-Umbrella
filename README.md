@@ -10,3 +10,11 @@ Imagine having a friend who understands how it feels to start fresh. That’s wh
 So, if you or someone you know is new to London, check it out. It’s not just a website; it’s a piece of my heart reaching out to yours, saying, “You’re not alone, and we can figure this out together.”
 
 Wishing you the very best on your new adventure in the best city in the world .
+## My motivation
+was to create a helpful resource for newcomers to London, drawing from my own experiences as a refugee from Ukraine.
+
+The project aims to solve the challenges faced by newcomers by providing essential information on various aspects of life in London.
+
+Through this project , I have  learned the value of sharing practical knowledge to assist others in navigating a new environment.
+
+My project stands out for its complete  coverage, addressing key areas like health, banking, education, housing, and more, offering a useful guide for those starting a new chapter in London.
