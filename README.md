@@ -1,7 +1,12 @@
-echo "# project1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Pilotil76/project1.git
-git push -u origin main
+My project - the site I’ve created URBAN UMBRELLA means to be a helping hand for newcomers to London.
+When I arrived in London, everything felt new and a bit confusing. That’s why I made this special website—to be like a friendly guide for newcomers, just like I wished I had.
+
+Moving to a new place can make anyone feel a bit lost. It’s like being in a big, unfamiliar puzzle. I know that feeling because I’ve been there. And you know what? Lots of people feel the same way when they come here.
+
+What makes my website different? Well, it’s like a cozy blanket of information. I noticed there wasn’t one place with all the important things newcomers might want to know—like about health, money, buses, schools, homes, and jobs. So, I decided to create that place.
+
+Imagine having a friend who understands how it feels to start fresh. That’s what this website is. It’s not just facts; it’s like a friendly chat, saying, “Hey, you’re not alone, and I’m here to help.”
+
+So, if you or someone you know is new to London, check it out. It’s not just a website; it’s a piece of my heart reaching out to yours, saying, “You’re not alone, and we can figure this out together.”
+
+Wishing you the very best on your new adventure in the best city in the world .
