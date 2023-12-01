@@ -3,7 +3,6 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    /* padding: 0;*/
     margin: 0;
     box-sizing: border-box;
 }
@@ -13,7 +12,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -41,16 +39,14 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    /*box-shadow: 0 2px 2px #3a3a3a;*/
     display: flex;
     justify-content: space-between;
-
-}
+    }
 
 header a {
     text-decoration: none;
     color: inherit;
-}
+    }
 
 #menu {
     font-size: 110%;
@@ -105,17 +101,14 @@ nav {
 
 /* Main content */
 main {
-    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 
 
-/* Viewl section */
+/* Images section */
 
 #viewl {
     height: 600px;
@@ -158,15 +151,11 @@ main {
     padding: 50px;
     text-align: center;
     vertical-align: justify;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time dives over the background image */
     border: 2px solid white;
 }
 
-/*don't delete*/
 #viewbus {
     height: 200px;
     width: 50%;
@@ -304,8 +293,7 @@ div>p>a {
 
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+          margin-top: 79px;
     }
 
     /* viewl */
@@ -346,11 +334,4 @@ a:active {
 }
 
 
-/*@media screen and (min-width: 1200px)
- {
-    #logo {
-        font-size: 400%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-}*/
+/*@media screen and (min-width: 1200px)*/
