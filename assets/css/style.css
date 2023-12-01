@@ -150,7 +150,7 @@ main {
     background-color: rgba(0, 0, 0, .6);
     padding: 50px;
     text-align: center;
-    vertical-align: justify;
+    /* vertical-align: justify; */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
@@ -328,9 +328,7 @@ a:visited {
 a:active {
     background-color: green;
     color: white;
-    opacity: 0.7;
-    transition: 1c;
-    transform: scale(1.2);
+ 
 }
 
 

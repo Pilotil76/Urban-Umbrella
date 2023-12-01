@@ -22,6 +22,14 @@ Through this project , I have  learned the value of sharing practical knowledge 
 
 My project stands out for its complete  coverage, addressing key areas like health, banking, education, housing, and more, offering a useful guide for those starting a new chapter in London.
 
+## My pages on a different sizes 
+### Desktop
+![Home Page Desktop](/assets/images/HomePageDesktop.PNG)
+### Laptop
+![Home Page Desktop](/assets/images/HomePageLaptop.PNG)
+### Mobile
+![Home Page Desktop](/assets/images/HomePageMobile.PNG)
+
  ## Future of the project.
   This project is not finished yet, it is under construction.
  I plan to continue developing the website, adding more necessary information, finish all pages, contact with future users, add  languages, feedback. In the future I plan to launch a project on the Internet and continue to help newcomers.
