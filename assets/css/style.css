@@ -79,7 +79,7 @@ nav {
     display: block;
     text-align: right;
 }
-
+ /* put scrolling code for nav */
 #nav-toggle {
     display: none;
 }
