@@ -79,7 +79,7 @@ nav {
     display: block;
     text-align: right;
 }
- /* put scrolling code for nav */
+
 #nav-toggle {
     display: none;
 }
@@ -193,9 +193,10 @@ div>p>a {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
+
 #contact-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #ffffff;
     padding: 30px;
 }
 #contact-form>h2 {
@@ -221,17 +222,22 @@ div>p>a {
     color: #fafafa;
 }
 
-#contact {
+/*#contact {
     background-position: center;
     position: relative;
+}*/
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
 }
-
 #contact-form {
     max-width: 400px;
     position: absolute;
     left: 10%;
     top: 150px;
 }
+
 
 .text-input:hover {
     border-color: #f16c6b;

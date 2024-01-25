@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--meta tags for search engines.-->
+    <meta name="description" content=" Welcome to London">
+    <meta name="keywords" content="immigration, refugee, asylum seekers, student, expat, help for move to the UK, help for move to London">
+    <title>Urban Umbrella</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+     <!-- Stylesheet -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <style
+     label, input {
+        display: block;
+    }
+    >
+
+     </style>
+  </head>
+  <body>
+     <!-- Header -->
+     <header>
+      <a href="index.html">
+          <h1 id="logo">Urban Umbrella </h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+          <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+          <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="legal-docs.html">Legal documents</a></li>
+              <li><a href="transport.html">Transport</a></li>
+              <li><a href="housing.html">Housing</a></li>
+              <li><a href="charity.html">Charity</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="health.html">Health</a></li>
+              <li><a href="shopping.html">Shopping</a></li>
+              <li><a href="contact-us.html" class="active" style="background-color: yellowgreen;">Contact us</a></li>
+          </ul>
+      </nav>
+  </header>
+    <!-- Main content -->
+    <main>   
+        <h1>London at your fingertips</h1>
+         <section id="contact" class="mycontainer"> 
+            <form id="contact-form" method="POST" action="contact-us.html">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" type="text"></textarea>
+                <input id="submit-button" type="submit">
+
+
+   
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+     <!-- Font Awesome kit -->
+     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+     <script src="assets/js/contact.js"></script>
+     <script 
+     let form = document.getElementById('contact-form');
+     form.addEventListener('submit', handleSubmit);
+     
+     function handleSubmit(event){
+         event.preventDefault();
+         
+         console.log("submitting form...");
+         
+         test = document.getElementById('message').value;
+         console.log(test);
+         
+         form.submit();
+         console.log('form submitted');
+         
+     }
+     
+    
+     ></script>
+
+  </body>
+</html>
