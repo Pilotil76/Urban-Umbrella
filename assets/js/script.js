@@ -18,7 +18,7 @@ let users=[
         }
     }
    
-
+/*
 // Write your code here
 let form = document.getElementById('registration-form');
 form.addEventListener('submit', handleSubmit);
@@ -36,4 +36,4 @@ function handleSubmit(event){
         console.log(usernames);
     }
 }
-
+*/
