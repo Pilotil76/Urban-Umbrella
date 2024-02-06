@@ -7,11 +7,11 @@ let users=[
     ("Kunal", "Shukla", "512193@waes.ac.uk", 123456789),
     ("Yasir", "Mohamed", "516097@waes.ac.uk", 123456789)];
     
-    function checkId (){
+    function checkId() {
         let usersEmail=document.getElementById("email_address");
         console.log(usersEmail);
         for (let i=0; i<4; i++) {
-            if (users[i][2]!==usersEmail) {
+            if (users[i][2]==usersEmail) {
                 let userName=users[i][0]
                 console.log("welcome")}
 
