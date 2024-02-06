@@ -9,7 +9,7 @@ let users=[
     
     function checkId() {
         let usersEmail=document.getElementById("email_address");
-        console.log(usersEmail);
+        console.log(usersEmail.textContent);
         for (let i=0; i<4; i++) {
             if (users[i][2]==usersEmail) {
                 let userName=users[i][0]
