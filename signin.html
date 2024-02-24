@@ -55,14 +55,79 @@
     <!-- Main content -->
     <main>   
         <h1>London at your fingertips</h1>
-         <section id="contact" class="mycontainer"> 
-            <!-- TEST-->
-
-
+        <!--
+            OLD VERSION
+             <section id="contact" class="mycontainer"> 
             
               <h3>Sign in</h3>
-            <p id="errors"></p>
-            <form id="registration-form" method="POST" action="https://formdump.codeinstitute.net/">
+          // <p id="errors"></p>
+           <form id="registration-form" method="POST">
+                <div class="username">
+                    <label for="username">Username:</label>
+                    <input id="username" name="username" type="text" required>
+                </div>
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" type="password" required>
+                   
+                </div>
+                <!--<button onclick="checkIdIn () " type="submit" class="join-button">Submit</button>-->
+                <!--<button onclick="checkIdIn()" class="join-button" class="redirect-button" href="message.html">Submit</button>
+                <!--<a href="message.html" class="redirect-button">Go to New Page</a>-->
+
+               <!-- <script>
+                function checkIdIn() {
+                  let username = document.getElementById("username").value;
+                  let password = document.getElementById("password").value;
+              
+                  let usernameTrue = false;
+                  let passwordTrue = false;
+              
+                  for (let i = 0; i < users.length; i++) {
+                      if (users[i][2] === username && users[i][3] === password) {
+                          window.open("message.html");
+                          usernameTrue = true;
+                          passwordTrue = true;
+                          break;
+                      }
+                  }
+                }
+            </script>-->
+                <!-- old 
+                  <script>
+               function checkIdIn()   {
+                  let username=document.getElementById("username").value;
+                  //alert(usersEmail);
+                      username=String(username);
+          
+                  let password=document.getElementById("password").value;
+                      password=String(password);
+                  
+                  let usernameTrue=false;
+                  let passwordTrue=false;
+                  for (let i=0; i<5; i++) {
+                     
+                      if (user[i][2]==username && password[i][3]==password)
+                      {
+                           window.open("message.html");
+                          usernameTrue=true // && passwordTrue=true;
+                          break;
+                          }}
+                    //if (usersEmailTrue==false) 
+                    //{ window.open("message.html") }
+              }
+                //<input type="submit"> old end
+                
+            </form>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+            <script src="">assets/js/script.js</script>
+          OLD VERGION
+        -->
+               
+        <!--NEW VERGION-->
+        <section id="contact" class="mycontainer"> 
+            <h3>Sign in</h3>
+            <form id="registration-form">
                 <div class="username">
                     <label for="username">Username:</label>
                     <input id="username" name="username" type="text" required>
@@ -71,214 +136,10 @@
                     <label for="password">Password:</label>
                     <input id="password" name="password" type="password" required>
                 </div>
-                <input type="submit">
-                
+                <button onclick="checkIdIn()" class="join-button">Submit</button>
             </form>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
-            <script src="index.js"></script>
-          
-                
-                <!--
-                <div id="signin">
-                 <form id="contact-form-in" method="POST" >
-                <h2><i class="fa-solid "></i>sign in</h2>
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
-                <br>
-   
-                <button type="submit" class="join-button">Submit</button>
-            </form>
-                </div> 
-                
-        </div>
         </section>
-
-        -->
-
-        <!--
-            <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-</style>
-</head>
-<body>
-
-<h2>Modal Login Form</h2>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
-</body>
-</html>
-
-        -->
+                
     </main>
     
     <!-- Footer -->
@@ -308,27 +169,7 @@ window.onclick = function(event) {
     </footer>
      <!-- Font Awesome kit -->
      <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-     <script src="assets/js/contact.js"></script>
-     <script
-     let usernames = ["Harry", "Daisy", "Michael", "Sarah", "Sally"];
-
-// Write your code here
-let form = document.getElementById('registration-form');
-form.addEventListener('submit', handleSubmit);
-let errorMsg = document.getElementById('errors');
-
-function handleSubmit(event){
-    event.preventDefault();
-    //let name = form.elements.username.value;
-    let name = document.getElementById('username').value;
-    if (usernames.includes(name)) {
-        errorMsg.innerHTML = `Sorry, the username ${name} is already in use. Please choose another username.`;
-    } else {
-        usernames.push(name);
-        form.submit();
-        console.log(usernames);
-    }
-}
-     ></script>
+     <script src="assets/js/script.js"></script>
+    
   </body>
 </html>

@@ -9,10 +9,10 @@
     <meta name="keywords" content="immigration, refugee, asylum seekers, student, expat, help for move to the UK, help for move to London">
     <title>Urban Umbrella</title>
     <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">-->
      <!-- Stylesheet -->
      <link rel="stylesheet" href="assets/css/style.css">
      <style
@@ -63,11 +63,142 @@
       </nav>
   </header>
     <!-- Main content -->
-    <main>   
+
+    
+    
+        <!-- Header and navigation menu -->
+    
+        <!-- Main content -->
+        <main>   
+            <h1>London at your fingertips</h1>
+            <section id="contact" class="mycontainer"> 
+                <form id="registration-form" method="POST" onsubmit="submitEmailUp(); return false;">
+                    <div class="name">
+                        <label for="userName">First Name</label>
+                        <input name="userName" id="userName" type="text" required>
+                    </div>
+    
+                    <div class="name">
+                        <label for="userLastName">Last Name</label>
+                        <input name="userLastName" id="userLastName" type="text" required>
+                    </div>
+    
+                    <div class="email">
+                        <label for="email_address">Email</label>
+                        <input name="email_address" id="email_address" type="email" required>
+                    </div>
+    
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input name="password" id="password" type="password" required>
+                    </div>
+    
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input name="confirm-password" id="confirm-password" type="password" required>
+                    </div>
+    
+                    <div id="errors"></div>
+                    
+                    <div class="submit">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+            </section>
+        </main>
+        
+        
+    
+
+    <!-- new new new
+    <main>  
+
+     
+    
+        <h1>London at your fingertips</h1>
+        <section id="contact" class="mycontainer"> 
+            <form id="registration-form" method="POST" onsubmit="submitEmail(); return false;">
+                <div class="name">
+                    <label for="userName">First Name</label>
+                    <input name="userName" id="userName" type="text" required>
+                </div>
+
+                <div class="name">
+                    <label for="userLastName">Last Name</label>
+                    <input name="userLastName" id="userLastName" type="text" required>
+                </div>
+
+                <div class="email">
+                    <label for="email_address">Email</label>
+                    <input name="email_address" id="email_address" type="email" required>
+                </div>
+
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input name="password" id="password" type="password" required>
+                </div>
+
+                <div class="confirm-password">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input name="confirm-password" id="confirm-password" type="password" required>
+                </div>
+
+                <div id="errors"></div>
+                
+                <div class="submit">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </section>
+    </main>
+  -->
+  
+
+
+        <!--
+          new new
+        
+              <h1>London at your fingertips</h1>
+              <section id="contact" class="mycontainer"> 
+                  <form id="registration-form" method="POST">
+                      <div class="name">
+                          <label for="userName">First Name</label>
+                          <input name="userName" id="userName" type="text" required>
+                      </div>
+      
+                      <div class="name">
+                          <label for="userLastName">Last Name</label>
+                          <input name="userLastName" id="userLastName" type="text" required>
+                      </div>
+      
+                      <div class="email">
+                          <label for="email_address">Email</label>
+                          <input name="email_address" id="email_address" type="email" required>
+                      </div>
+      
+                      <div class="password">
+                          <label for="password">Password</label>
+                          <input name="password" id="password" type="password" required>
+                      </div>
+      
+                      <div class="confirm-password">
+                          <label for="confirm-password">Confirm Password</label>
+                          <input name="confirm-password" id="confirm-password" type="password" required>
+                      </div>
+      
+                      <div id="errors"></div>
+                      
+                      <div class="submit">
+                          <input type="submit" value="Register" onclick="submitEmail()">
+                      </div>
+                  </form>
+              </section>
+         new new -->
+
+      <!-- OLD VER
         <h1>London at your fingertips</h1>
          <section id="contact" class="mycontainer"> 
        
-
 
     <form id="registration-form" action="signin.html" target="_signin.html"  method="POST">
    
@@ -83,7 +214,7 @@
 
     <div class="email">
       <label for="email_address">Email</label>
-      <input name="email_address" id="email_address" type="email" required>
+      <input name="email_address" id="username" type="email" required>
     </div>
     <div class="password">
       <label for="password">Password</label>
@@ -101,12 +232,11 @@
     </div>
   </form>
     
-    <!-- test--> 
-              
+     OLD VERG-->           
 
 
              
-    </main>
+    
     
     <!-- Footer -->
     <footer>
@@ -135,8 +265,8 @@
     </footer>
      <!-- Font Awesome kit -->
      <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-     <script src="assets/js/contact.js"></script>
-     <script 
+     <script src="assets/js/script.js"></script>
+    <!--<script 
      function handleSubmit(event) {
       event.preventDefault();
       let p1 = form.elements('password'.value;)
@@ -153,7 +283,7 @@
     
     
     let form = document.getElementById('registration-form');
-    form.addEventListener('submit', handleSubmit);></script>
+    form.addEventListener('submit', handleSubmit);></script>-->
 
   </body>
 </html>
