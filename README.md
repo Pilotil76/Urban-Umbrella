@@ -30,6 +30,19 @@ My project stands out for its complete  coverage, addressing key areas like heal
 ### Mobile
 ![Home Page Desktop](/assets/images/HomePageMobile.PNG)
 
+## Project 2 JavaScript
+ 
+For this part of the project, I've added a script.js file for some functions:
+1. Simple database including name, last name, email, and password.
+2. From the Contact HTML page program verify an email address and if the email is in the database will open the signin.html page.
+3. From the signin.html page program verifies the email address and password, if all correct users will be transferred into the message.html page for future contacts from the administrator.
+4. If the password or email is invalid on the screen will be an alarm note and after 3 unsuccessful attempts user will be redirected to the contact-us.html page.
+ 5. If the Contact HTML page can’t verify the email address will redirect to the signup.html page to register a new user. 
+6. After registration and pressing the “Register” button user will be redirected to the signin.html page.
+
+
+
+
  ## Future of the project.
   This project is not finished yet, it is under construction.
  I plan to continue developing the website, adding more necessary information, finish all pages, contact with future users, add  languages, feedback. In the future I plan to launch a project on the Internet and continue to help newcomers.
